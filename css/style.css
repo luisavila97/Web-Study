@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+/* Header */
+
+#logo {
+    color: #dd845a;
+}
+
+#image-zoom {
+    background: url(/img/light.jpg);
+    background-position: top right;
+    background-size: cover;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    background-color: #dd845a;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+}
+
+#image-zoom h1 {
+    font-size: 64px;
+    color: white;
+
+}
+
+p {
+    font-size: 21px;
+}
+
+
+/* Content 1 */
+
+h1,
+h5 {
+    color: #dd845a;
+}
+
+#superior-Quality p {
+    font-size: 21px;
+}
+
+/* Content 2 */
+
+.content2Row {
+    border: black 1px solid;
+}
+
+.content2Row a {
+    text-decoration: none;
+
+    height: 200px;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.content2Row a h3 {
+    color: white;
+    text-shadow: 1px 1px 8px black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 75px;
+}
+
+.content2Row a:hover {
+    background-size: 110%;
+    color: white;
+    border: black 5px solid;
+}
+
+.item1 {
+    background: url(/img/salad_bowl.jpg);
+}
+
+.item2 {
+    background: url(/img/coffe.jpg);
+}
+
+.item3 {
+    background: url(/img/grapes.jpg);
+}
+
+/* Shop */
+
+s {
+    color: #999;
+    font-size: 18px;
+}
+
+/* Find Us */
+
+#findUs {
+    background: url(/img/map.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    border-top: #cecece 1px solid;
+    border-bottom: #cecece 1px solid;
+}
+
+/* Footer */
+
+#footer {
+    padding: 25px 50px 0px 50px;
+    background-color: #f6f6f6;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+#footer li {
+    font-size: 14px;
+    color: #8d8d8d;
+}
+
+#footer h6 {
+    font-size: 18px;
+}
+
+/* Copyright */
+
+#copyright p {
+    font-size: 15px;
+}
+
+#copyright a {
+    color: #dd845a;
+    text-decoration: none;
+}
